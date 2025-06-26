@@ -1,6 +1,6 @@
 import React, { memo, useCallback, useEffect } from 'react';
-import { useGlobals, useStorybookApi } from '@storybook/manager-api';
-import { Icons, IconButton } from '@storybook/components';
+import { useGlobals, useStorybookApi } from 'storybook/manager-api';
+import { Icons, IconButton } from 'storybook/internal/components';
 import { ADDON_ID, PARAM_KEY, TOOL_ID } from './constants';
 
 export const Tool = memo(function GridOverlaySelector() {
